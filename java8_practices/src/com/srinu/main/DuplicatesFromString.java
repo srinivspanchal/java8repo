@@ -12,6 +12,7 @@ public class DuplicatesFromString {
 		String duplicatesString= Stream.of(str.split("")).sorted().distinct().collect(Collectors.joining());
 		
 		System.out.println("Duplicates are  ::"+duplicatesString);
+		System.out.println("Duplicates are  ::"+duplicatesString);
 		System.out.println("");
 	}
 
